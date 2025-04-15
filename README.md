@@ -8,17 +8,17 @@ PYTHON SYNTAX
 - "Print" --> like document.write()
 
 Common methods:
-len()
-.upper()
-.lower()
-str()
-.sort()
-.insert()
+- len()
+- .upper()
+- .lower()
+- str()
+- .sort()
+- .insert()
 
-max()
-min()
-abs()
-type()
+- max()
+- min()
+- abs()
+- type()
 
 Data/input types:
 
@@ -26,12 +26,14 @@ Data/input types:
 FUNCTIONS
 ```Python
 def functionName():
-  # body code indented
+  # body code is always indented!
 ```
 
 For loops:
+```Python
 for [variable] in [array]:
-  # code here!
+  # code here
+```
 
 If/else statements:
 - use "elif" = else if
@@ -40,10 +42,12 @@ age = 25
 
 if age < 13:
     print "Child"
-elif 13 <= age < 20:
+elif age >= 13 and age < 20:
     print "Teenager"
-elif 20 <= age < 65:
+elif age >= 20 and age < 65:
     print "Adult"
 else:
     print "Senior"
+
+# prints "Adult"
 ```
