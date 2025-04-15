@@ -6,6 +6,7 @@ https://www.codecademy.com/enrolled/courses/learn-python
 
 # Python Syntax
 - `Print` --> like document.write()
+- Make single or multi-line comments using # or """
 
 COMMON METHODS:
 - `len()`
@@ -14,13 +15,10 @@ COMMON METHODS:
 - `str()`
 - `.sort()`
 - `.insert()`
-<p><br></p>
-
 - `max()`
 - `min()`
 - `abs()`
 - `type()`
-<p><br></p>
 
 DATA/INPUT TYPES:
 - int
@@ -32,21 +30,18 @@ DATA/INPUT TYPES:
 --> convert between data types using int(), float(), str()
 <p><br></p>
 
-
 # Functions
 SETUP:
 ```Python
 def functionName():
   # body code is always indented!
 ```
-<p><br></p>
 
 FOR LOOPS:
 ```Python
 for [variable] in [array]:
   # code here
 ```
-<p><br></p>
 
 IF/ELSE STATEMENTS:
 - use "elif" = else if
