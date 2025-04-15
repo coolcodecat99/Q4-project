@@ -21,13 +21,13 @@ COMMON METHODS:
 - `type()`
 
 DATA/INPUT TYPES:
-- int
-- float
-- str
-- list
-- dict
-- boolean
---> convert between data types using int(), float(), str()
+- `int` integers (3, 0, -5)
+- `float` decimals (-0.5, 3.14)
+- `str` sequences of characters ("hi", "what's up?")
+- `list`
+- `dict`
+- `boolean`
+- Convert between data types using int(), float(), str()
 <p><br></p>
 
 # Functions
