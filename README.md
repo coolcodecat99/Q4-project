@@ -4,7 +4,7 @@ https://www.codecademy.com/enrolled/courses/learn-python
 
 
 
-PYTHON SYNTAX
+# PYTHON SYNTAX
 - "Print" --> like document.write()
 
 Common methods:
@@ -29,7 +29,7 @@ Data/input types:
 - boolean
 --> convert between data types using int(), float(), str()
 
-FUNCTIONS
+# FUNCTIONS
 ```Python
 def functionName():
   # body code is always indented!
