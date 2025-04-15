@@ -9,8 +9,8 @@ PYTHON SYNTAX
 
 Common methods:
 - len()
-- .upper()
-- .lower()
+- .upper() --> like .toUpperCase()
+- .lower() --> like .toLowerCase()
 - str()
 - .sort()
 - .insert()
@@ -21,7 +21,13 @@ Common methods:
 - type()
 
 Data/input types:
-
+- int
+- float
+- str
+- list
+- dict
+- boolean
+--> convert between data types using int(), float(), str()
 
 FUNCTIONS
 ```Python
