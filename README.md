@@ -4,23 +4,25 @@ https://www.codecademy.com/enrolled/courses/learn-python
 
 
 
-# PYTHON SYNTAX
-- "Print" --> like document.write()
+# Python Syntax
+- `Print` --> like document.write()
 
-Common methods:
-- len()
-- .upper() --> like .toUpperCase()
-- .lower() --> like .toLowerCase()
-- str()
-- .sort()
-- .insert()
+COMMON METHODS:
+- `len()`
+- `.upper()` --> like .toUpperCase()
+- `.lower()` --> like .toLowerCase()
+- `str()`
+- `.sort()`
+- `.insert()`
 
-- max()
-- min()
-- abs()
-- type()
 
-Data/input types:
+- `max()`
+- `min()`
+- `abs()`
+- `type()`
+
+
+DATA/INPUT TYPES:
 - int
 - float
 - str
@@ -29,19 +31,23 @@ Data/input types:
 - boolean
 --> convert between data types using int(), float(), str()
 
-# FUNCTIONS
+
+# Functions
+SETUP:
 ```Python
 def functionName():
   # body code is always indented!
 ```
 
-For loops:
+
+FOR LOOPS:
 ```Python
 for [variable] in [array]:
   # code here
 ```
 
-If/else statements:
+
+IF/ELSE STATEMENTS:
 - use "elif" = else if
 ```Python
 age = 25
