@@ -38,9 +38,12 @@ def functionName():
 ```
 
 FOR LOOPS:
+- Works for strings, lists, dictionaries
 ```Python
-for [variable] in [array]:
-  # code here
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print fruit
+# prints apple, banana, cherry
 ```
 
 IF/ELSE STATEMENTS:
