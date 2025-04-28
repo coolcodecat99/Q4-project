@@ -62,3 +62,9 @@ else:
 
 # prints "Adult"
 ```
+
+# Lists
+REMOVING ELEMENTS:
+- `.pop(index)`
+- `.remove(item)`
+- `del(x[1])`
