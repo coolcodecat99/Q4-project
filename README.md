@@ -68,3 +68,14 @@ REMOVING ELEMENTS:
 - `.pop(index)`
 - `.remove(item)`
 - `del(x[1])`
+
+RANGE:
+Three versions, they work a lot like substring:
+- `range(stop)`
+- `range(start, stop)`
+- `range(start, stop, step)`
+```Python
+range(6) # => [0, 1, 2, 3, 4, 5]
+range(1, 6) # => [1, 2, 3, 4, 5]
+range(1, 6, 3) # => [1, 4]
+```
