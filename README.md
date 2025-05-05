@@ -46,6 +46,16 @@ for fruit in fruits:
 # prints apple, banana, cherry
 ```
 
+WHILE LOOPS:
+- Use `break` to exit the loop!
+```Python
+hungry = True
+
+while hungry:
+  print("Time to eat!")
+  hungry = False
+```
+
 IF/ELSE STATEMENTS:
 - use "elif" = else if
 ```Python
