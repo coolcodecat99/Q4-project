@@ -89,3 +89,23 @@ range(6) # => [0, 1, 2, 3, 4, 5]
 range(1, 6) # => [1, 2, 3, 4, 5]
 range(1, 6, 3) # => [1, 4]
 ```
+
+# Classes
+- Methods work like functions inside classes
+- First parameter is usually `self`
+- Attributes work like variables inside classes
+- Use `__init__()` to initialize new objects
+```Python
+# Dog class
+class Dog:
+  # Method of the class
+  def bark(self):
+    print("woof woof")
+
+# Create a new instance
+charlie = Dog()
+
+# Call the method
+charlie.bark()
+# Outputs "woof woof"
+```
