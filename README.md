@@ -109,3 +109,10 @@ charlie = Dog()
 charlie.bark()
 # Outputs "woof woof"
 ```
+```Python
+class Home:
+  def __init__(self, rooms, stories):
+    # Setting instance variables
+    self.rooms = rooms
+    self.stories = stories
+```
