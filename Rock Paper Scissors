@@ -1,0 +1,41 @@
+# ROCK PAPER SCISSORS
+import random
+
+def game():
+  user = input("Enter your choice: 'r' for rock, 'p' for paper, 's' for scissors\n").lower()
+  computer = random.choice(['r', 'p', 's'])
+  
+  
+  if user == computer:
+    return 'It`s a tie!'
+
+  elif is_win(user, computer):
+    return 'You win!'
+
+  else:
+    return 'You lose!'
+
+
+def is_win(player, opponent):
+  # return true if player wins
+  # r > s, s > p, p > r
+  if (player == 'r' and opponent == 's') or (player == 's' and opponent == 'p') or \
+    (player == 'p' and opponent == 'r'):
+    return True
+  return False
+  # if not valid input, try again
+
+
+# start first turn
+print(game())
+
+while True:
+  # prompt user
+  user_input = input("Want to play again? Type 'yes' or 'no':").lower()
+  # if yes, print
+  if user_input == 'yes':
+    print(game())
+  # if no, break
+  elif user_input == 'no':
+    print("Thanks for playing!")
+    break
